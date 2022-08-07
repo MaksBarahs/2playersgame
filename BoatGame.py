@@ -13,7 +13,7 @@ class BoatGame():
         # создание экрана и установка размеров
         self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 
-        pygame.display.set_caption("BoatGame")
+        pygame.display.set_caption("Boat Game")
 
         self.settings = Settings()
         self.boats = pygame.sprite.Group()
